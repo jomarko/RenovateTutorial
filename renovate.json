@@ -4,6 +4,10 @@
     "config:base"
   ],
   "prHourlyLimit": 3,
-  "matchUpdateTypes": ["major"],
-  "dependencyDashboardApproval": true
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    }
+  ]
 }
